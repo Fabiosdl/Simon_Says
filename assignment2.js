@@ -45,7 +45,7 @@ function play() {
       seq.push(Math.floor(Math.random() * 4) + 1);
     }
     compTurn = true;
-    intervalId = setInterval(gameTurn, 200);
+    intervalId = setInterval(gameTurn, 800);
 }
 
 function gameTurn() { //function to check if its time to go another turn

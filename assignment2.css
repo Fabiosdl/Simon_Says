@@ -1,0 +1,112 @@
+
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.wrapper{
+    transform: translate(39%,-40%);
+}
+.blackcircle1, .blackcircle2, .circle1, .circle2{
+    display: inline-block;
+}
+.blackcircle3, .blackcircle4, .circle3, .circle4{
+    display: inline-block;    
+}
+.blackcircle1{
+    background-color: black;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.circle1 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-113.5%, -9.5%);    
+}
+.blackcircle2{
+    background-color: black;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transform:translate(-40%, 0%);
+}
+.circle2 {
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-162%, -9.5%)
+}
+.blackcircle3{
+    background-color: black;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transform: translate(-380%, 150%);
+}
+.circle3 {
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-570%, 170%);   
+}
+.blackcircle4{
+    background-color: black;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transform:translate(-420%, 150%);
+}
+.circle4 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-620%, 170%)
+}
+.console{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    transform: translate(25%, 125%)
+}
+.button{   
+    border-radius: px;
+    transform: translate(95%,280%);    
+    cursor: pointer;
+}
+.turn2 {
+    display: flex;
+    font-size: 14px;
+    width:20px;
+    height:11px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 3px;
+    transform: translate(100%,405%);    
+  }
+  .turn {
+    display: flex;
+    font-size: 14px;
+    width:20px;
+    height:11px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 3px;
+    transform: translate(470%,197%);
+  }
+.on{
+    background-color: red;
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    transform: translate(1200%, 800%);
+}  

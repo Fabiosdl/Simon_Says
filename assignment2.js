@@ -13,6 +13,7 @@ let correct;
 let compTurn;
 let intervalId;
 let highScore = 0;
+let noise = true;
 
 
 const turnCounter = document.querySelector("#turn-counter");
@@ -73,15 +74,35 @@ function gameTurn() { //function to check if its time to go another turn
 }
 
 function one() { // when it is called, flashes the circles making lighter colours
+    if (noise) {
+        let audio = document.getElementById("clip1");
+        audio.play();
+    }
+    noise = true;
     circle1.style.backgroundColor = "lightgreen";
 }
 function two() {
+    if (noise) {
+        let audio = document.getElementById("clip2");
+        audio.play();
+    }
+    noise = true;
     circle2.style.backgroundColor = "tomato";
 }
 function three() {
+    if (noise) {
+        let audio = document.getElementById("clip3");
+        audio.play();
+    }
+    noise = true;
     circle3.style.backgroundColor = "lightyellow";
 }
 function four() {
+    if (noise) {
+        let audio = document.getElementById("clip4");
+        audio.play();
+    }
+    noise = true;
     circle4.style.backgroundColor = "lightskyblue";
 }
 
@@ -147,6 +168,11 @@ function check() { // it checks if the player is following the signs correctly o
     if ((playerSeq[playerSeq.length-1] !== seq[playerSeq.length-1]))
         correct = false;
     if (correct == false){ //if the player looses the game:
+        if (noise) {
+            let audio = document.getElementById("fail");
+            audio.play();
+        }
+        noise = true;
         flashColor(5);     // call the function flashColor to flash 5 times
         on.style.backgroundColor = "red"; // button on/off becomes red
         setTimeout(() => {

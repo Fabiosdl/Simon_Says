@@ -25,7 +25,7 @@
     border-radius: 50%;
     transform: translate(-113.5%, -9.5%);    
 }
-.circl1:hover{
+.circle1:hover{
     cursor: pointer;
 }
 .blackcircle2{
@@ -42,6 +42,9 @@
     border-radius: 50%;
     transform: translate(-162%, -9.5%)
 }
+.circle2:hover{
+    cursor: pointer;
+}
 .blackcircle3{
     background-color: black;
     width: 120px;
@@ -56,6 +59,9 @@
     border-radius: 50%;
     transform: translate(-570%, 170%);   
 }
+.circle3:hover{
+    cursor: pointer;
+}
 .blackcircle4{
     background-color: black;
     width: 120px;
@@ -69,6 +75,9 @@
     height: 100px;
     border-radius: 50%;
     transform: translate(-620%, 170%)
+}
+.circle4:hover{
+    cursor: pointer;
 }
 .console{
     background-color: black;

@@ -5,7 +5,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="assignment2.css">
+   <link rel="stylesheet" href="simonGame.css">
 
    <audio id="clip1">
       <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
@@ -23,12 +23,22 @@
       <source src="./sounds/fail.mp3"></source>
    </audio>
 </head>
-<body>
-   <div style="display: flex;justify-content: center; align-items: center;">
-      <h2><b>SIMON GAME</b></h2>
-   </div> 
-   <div class="wrapper">      
-      <div class="console">           
+<body>      
+   <div class="wrapper" draggable="true">
+      <h2><b>SIMON GAME</b></h2>      
+      <div class="console">         
+         <div class="blackcircle1">               
+            <div class="circle1"></div>
+         </div>
+         <div class="blackcircle2">
+            <div class="circle2"></div>
+         </div>
+         <div class="blackcircle3">
+            <div class="circle3"></div>
+         </div>
+         <div class="blackcircle4">
+            <div class="circle4"></div>
+         </div>           
          <div class="turn2">    
             <span id="turn-counter2">00</span>
          </div>
@@ -38,16 +48,8 @@
          </div>
          <div class="on"></div>
       </div>
-      <div class="blackcircle1"></div>   
-      <div class="circle1"></div>
-      <div class="blackcircle2"></div>
-      <div class="circle2"></div>
-      <div class="blackcircle3"></div> 
-      <div class="circle3"></div>
-      <div class="blackcircle4"></div>
-      <div class="circle4"></div>        
    </div>
    <footer>&copy; Fabio Lima</footer>
-   <script src="assignment2.js"></script>
+   <script src="simonGame.js"></script>
 </body>
 </html>

@@ -1,0 +1,101 @@
+
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.console{
+    position: relative;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+}
+.buttons-container{
+    position:absolute;
+}
+
+.blackcircle1, .blackcircle2, 
+.blackcircle3, .blackcircle4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.blackcircle1{
+    transform: translate(-50%,-30%);
+}
+.blackcircle2{
+    transform: translate(-50%,5%);
+}
+.blackcircle3{
+    transform: translate(120%,-230%);
+}
+.blackcircle4{
+    transform: translate(120%,-190%);
+}
+.circle1, .circle2,
+.circle3, .circle4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.circle1 {
+    background-color: green;    
+}
+.circle2 {
+    background-color: darkred;    
+}
+.circle3 {
+    background-color: darkgoldenrod;
+}
+.circle4 {
+    background-color: blue;
+}
+
+.button{   
+    border-radius: px;
+    transform: translate(95%,-1800%);    
+    cursor: pointer;
+}
+.turn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width:20px;
+    height:11px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 3px;
+    transform: translate(100%,-1840%);    
+  }
+  .turn {
+    display: flex;
+    font-size: 14px;
+    width:20px;
+    height:11px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 3px;
+    transform: translate(470%,-2050%);
+}
+.on{
+    background-color: red;
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    transform: translate(1200%, -5000%);
+}  
